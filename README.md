@@ -3,6 +3,7 @@
 A curated collection of resources for learning mathematics: linear algebra, analysis, topology, algebra, probability, and more.
 
 ## Table of Contents
+- [General](#general)
 - [Linear Algebra](#linear-algebra)
 - [Analysis](#analysis)
 - [Complex Analysis and Fourier](#complex-analysis-and-fourier)
@@ -16,6 +17,7 @@ A curated collection of resources for learning mathematics: linear algebra, anal
 - [Dynamical Systems Theory and Chaos](#dynamical-systems-theory-and-chaos)
 - [Complexity and Dynamical Systems](#complexity-and-dynamical-systems)
 - [Machine Learning and Deep Learning](#machine-learning-and-deep-learning)
+- [Formalization and Exercises (Lean 4)](#formalization-and-exercises-lean-4)
 - [Not yet reviewed](#not-yet-reviewed)
 
 ## General
@@ -37,7 +39,7 @@ A curated collection of resources for learning mathematics: linear algebra, anal
 - [Distributions theory - The Bright Side Of Mathematics](https://www.youtube.com/watch?v=gwVEEUg8PBY&list=PLBh2i93oe2qsbptdcvFlowCl51EX_a3nB) - Introduction to distributions (generalized functions), test functions, and the Dirac delta
 
 ## Complex Analysis and Fourier
-- [Complex analysis - Richard E. Borcherds](https://www.youtube.com/playlist?list=PL8yHsr3EFj51F9XZ_Ka4bLnQoxTdMx0AL) - Fields medalist's lecture series covering analytic functions, contour integrals, and residue theory
+- [Complex analysis - Richard E. Borcherds](https://www.youtube.com/playlist?list=PL8yHsr3EFj537_iYA5QrvwhvMlpkJ1yGN) - Fields medalist's lecture series covering analytic functions, contour integrals, and residue theory
 - [Fourier Analysis - Steve Brunton](https://www.youtube.com/playlist?list=PLMrJAkhIeNNT_Xh3Oy0Y4LTj0Oxo8GqsC) - Covers Fourier series, Fourier transform, FFT, and applications to signal processing and PDEs
 - [Visual Complex Functions: an Introduction with Phase Portraits - Elias Wegert](https://www.goodreads.com/book/show/12353218-visual-complex-functions?from_search=true&from_srp=true&qid=04GqQgkIBM&rank=1) - Introduces complex analysis through colorful phase portraits that visualize analytic functions
 - [Complex Analysis - Serge Lang](https://cloudflare-ipfs.com/ipfs/bafykbzacebds7eaero37rx6fztl2wg36h4yklf7ilwjsrjl654etvz4omqzfm?filename=%28Graduate%20Texts%20in%20Mathematics%20103%29%20Serge%20Lang%20-%20Complex%20Analysis-Springer%20%282003%29.pdf) - Graduate-level textbook covering Cauchy's theorem, conformal mappings, and Riemann surfaces
@@ -81,7 +83,7 @@ A curated collection of resources for learning mathematics: linear algebra, anal
 - [Visual Differential Geometry and Forms: A Mathematical Drama in Five Acts - Tristan Needham](https://www.vdgf.space/) - Geometric and visual approach to differential geometry, curvature, and differential forms
 
 ## Dynamical Systems Theory and Chaos
-- [More is different - Anderson](https://t.co/g0vE10UvyA?amp=1) - Classic paper arguing that complexity at each scale requires fundamentally new laws, not just more particles
+- [More is different - Anderson](https://www.science.org/doi/10.1126/science.177.4047.393) - Classic paper arguing that complexity at each scale requires fundamentally new laws, not just more particles
 - [What is complexity? Remarks on simplicity and complexity - Gell-Man](https://onlinelibrary.wiley.com/doi/abs/10.1002/cplx.6130010105) - Nobel laureate's essay defining different notions of complexity and their relationships
 - [Numerical Evidence That the Motion of Pluto Is Chaotic - Gerald Jay Sussman, Jack Wisdom](https://web.mit.edu/wisdom/www/pluto-chaos.pdf) - Demonstrates through numerical integration that Pluto's orbit exhibits chaotic behavior over millions of years
 - [Deterministic nonperiodic Flow - Edward Lorenz](https://journals.ametsoc.org/doi/pdf/10.1175/1520-0469%281963%29020%3C0130%3ADNF%3E2.0.CO%3B2) - The foundational 1963 paper discovering deterministic chaos in a simple atmospheric convection model
@@ -99,6 +101,26 @@ A curated collection of resources for learning mathematics: linear algebra, anal
 - [Practical Deep Learning for Coders](https://course.fast.ai/) - Fast.ai's top-down course teaching deep learning with PyTorch through practical applications first
 - [Part 2: Deep Learning from the Foundations](https://course19.fast.ai/part2) - Fast.ai's advanced course rebuilding deep learning frameworks from scratch, covering backprop and optimizers
 - [Geometric Deep Learning - Michael Bronstein](https://youtu.be/PtA0lg_e5nA?list=PLn2-dEmQeTfQ8YVuHBOvAhUlnIPYxkeu3) - Unifying framework for deep learning on graphs, meshes, groups, and manifolds
+
+## Formalization and Exercises (Lean 4)
+
+### Getting Started
+- [Natural Number Game](https://adam.math.hhu.de/#/g/hhu-adam/NNG4) - Browser-based interactive game where you prove theorems about natural numbers from the Peano axioms, learning Lean tactics along the way
+- [Lean Game Server](https://adam.math.hhu.de/) - Web platform hosting multiple interactive Lean 4 games including the Natural Number Game, Set Theory Game, and Logic Game
+- [Theorem Proving in Lean 4](https://leanprover.github.io/theorem_proving_in_lean4/) - Official reference by Jeremy Avigad, Leonardo de Moura, and others covering dependent type theory, tactics, and interactive theorem proving
+- [The Mechanics of Proof - Heather Macbeth](https://hrmacbeth.github.io/math2001/) - Introductory textbook for learning rigorous proof writing alongside Lean 4, aimed at early undergraduates with a gentler learning curve
+- [Learning Lean 4 (Community Hub)](https://leanprover-community.github.io/learn.html) - Curated gateway page listing all major learning resources, books, and tutorials organized by topic and experience level
+
+### Formalizing Mathematics
+- [Mathematics in Lean (Lean 4 / Mathlib)](https://leanprover-community.github.io/mathematics_in_lean/) - Standard tutorial by Jeremy Avigad and Patrick Massot teaching mathematical formalization with Mathlib, featuring hundreds of exercises from number theory to measure theory
+- [Formalising Mathematics 2024 - Kevin Buzzard (Imperial College, Lean 4)](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024) - Full course on formalizing math in Lean 4 with Mathlib exercises and projects covering groups, topology, and analysis
+- [Lean Companion to Tao's Analysis I - Terence Tao](https://github.com/teorth/analysis) - Official Lean 4 formalization of definitions, theorems, and exercises from Tao's Analysis I textbook where readers prove results by filling in `sorry` placeholders
+- [The Hitchhiker's Guide to Logical Verification](https://lean-forward.github.io/hitchhikers-guide/2024/) - Graduate-level textbook on interactive theorem proving and logical verification in Lean 4 from Vrije Universiteit Amsterdam
+
+### Reference
+- [Mathlib4 Documentation](https://leanprover-community.github.io/mathlib4_docs/) - Auto-generated API documentation for Mathlib, Lean 4's comprehensive mathematical library covering algebra, analysis, topology, probability, and more
+- [100 Theorems in Lean](https://leanprover-community.github.io/100.html) - Tracks Lean/Mathlib's progress on Freek Wiedijk's 100 theorems challenge, with links to each formalized proof
+- [Functional Programming in Lean - David Thrane Christiansen](https://lean-lang.org/functional_programming_in_lean/) - Free book teaching functional programming concepts using Lean 4, useful for understanding the language foundations underlying theorem proving
 
 # Not yet reviewed
 
@@ -142,6 +164,4 @@ A curated collection of resources for learning mathematics: linear algebra, anal
 - [Neural Networks: Zero to Hero - Andrej Karpathy](https://karpathy.ai/zero-to-hero.html) - Video series building neural networks from scratch in pure Python, from backpropagation and micrograd through GPT-level language models
 - [Freya Holmer: Math for Game Devs](https://www.youtube.com/@acegikmo) - Outstanding visual video course covering vectors, matrices, splines, and quaternions with interactive game development examples
 - [The Nature of Code (2nd ed., 2024) - Daniel Shiffman](https://natureofcode.com/) - Free online book teaching physics simulations, autonomous agents, and genetic algorithms through creative coding in p5.js
-- [Mathematics in Lean (Lean 4 / Mathlib)](https://leanprover-community.github.io/mathematics_in_lean/) - Interactive textbook for formalizing mathematics in Lean 4 using Mathlib (210,000+ theorems)
 - [Math for Programming - Ronald T. Kneusel (No Starch Press, 2025)](https://nostarch.com/math-programming) - Practical book covering vectors, matrices, calculus for optimization, graph theory, and probability with direct applications to programming algorithms
-- [Formalising Mathematics 2024 - Kevin Buzzard (Imperial College, Lean 4)](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024) - Full course on formalizing math in Lean 4 with Mathlib exercises and projects
