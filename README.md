@@ -3,6 +3,7 @@
 A curated collection of resources for learning mathematics: linear algebra, analysis, topology, algebra, probability, and more.
 
 ## Table of Contents
+- [Suggested Learning Path](#suggested-learning-path)
 - [General](#general)
 - [Linear Algebra](#linear-algebra)
 - [Analysis](#analysis)
@@ -19,6 +20,71 @@ A curated collection of resources for learning mathematics: linear algebra, anal
 - [Machine Learning and Deep Learning](#machine-learning-and-deep-learning)
 - [Formalization and Exercises (Lean 4)](#formalization-and-exercises-lean-4)
 - [Not yet reviewed](#not-yet-reviewed)
+
+## Suggested Learning Path
+
+> Hour estimates are rough ranges for self-study including exercises. Your pace will differ. Video-only hours assume active note-taking. Book hours assume working most exercises. At 2 hrs/day the full path takes ~3-5 years.
+
+### Phase 0: Orientation (~15 hrs)
+Get the big picture before diving in.
+1. [The two cultures of mathematics](https://www.dpmms.cam.ac.uk/~wtg10/2cultures.pdf) - Read this essay first (~1 hr)
+2. [All the Math You Missed - Thomas Garrity](https://www.cambridge.org/universitypress/subjects/mathematics/recreational-mathematics/all-math-you-missed-need-know-graduate-school-2nd-edition) - Skim to see what lies ahead (~15 hrs)
+
+### Phase 1: Foundations (~400-600 hrs)
+Linear algebra, analysis, and learning to prove. Run these three tracks in parallel.
+
+**Track A - Linear Algebra (~150-250 hrs)**
+1. [Essence of linear algebra - 3blue1brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) - Watch first for visual intuition (~5 hrs)
+2. [MIT OCW 18.06 - Gilbert Strang](https://www.youtube.com/playlist?list=PL221E2BBF13BECF6C) - Full computational course (~60-80 hrs)
+3. [Linear Algebra Done Right - Sheldon Axler](https://www.youtube.com/playlist?list=PLGAnmvB9m7zOBVCZBUUmSinFV0wEir2Vw) - Proof-based, do the exercises (~100-150 hrs)
+
+**Track B - Analysis (~200-350 hrs)**
+1. [The Essence of Calculus - 3blue1brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) - Visual intuition first (~5 hrs)
+2. [Real Analysis - Francis Su](https://www.youtube.com/playlist?list=PL0E754696F72137EC) - Watch alongside Tao (~50-70 hrs)
+3. [Analysis I - Terence Tao](https://link.springer.com/book/10.1007/978-981-19-7261-4) - The main text, work all exercises (~200-300 hrs)
+4. [Lean Companion to Tao's Analysis I](https://github.com/teorth/analysis) - Formalize proofs as you go (included in above)
+
+**Track C - Learn Lean (~50-80 hrs, interleave with above)**
+1. [Natural Number Game](https://adam.math.hhu.de/#/g/hhu-adam/NNG4) - Start here, day one (~10-15 hrs)
+2. [The Mechanics of Proof - Heather Macbeth](https://hrmacbeth.github.io/math2001/) - Proofs + Lean together (~30-50 hrs)
+3. [Theorem Proving in Lean 4](https://leanprover.github.io/theorem_proving_in_lean4/) - Reference, read as needed (~15-20 hrs)
+
+### Phase 2: Core Undergraduate (~500-800 hrs)
+These can run in parallel. Each is one semester equivalent.
+
+1. [Abstract Algebra - Dummit & Foote](https://www.wiley.com/en-us/Abstract+Algebra,+3rd+Edition-p-9780471433347) - The encyclopedic text. Use [Socratica](https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6) and [Artin lectures](https://www.youtube.com/playlist?list=PLelIK3uylPMGzHBuR3hLMHrYfMqWWsmx5) alongside (~200-350 hrs)
+2. [Topology - James Munkres](https://www.pearson.com/en-us/subject-catalog/p/topology-classic-version/P200000006299/9780137848669) - Point-set then algebraic. Use [Tokieda lectures](https://www.youtube.com/playlist?list=PLTBqohhFNBE_09L0i-lf3fYXF5woAbrzJ) for intuition (~200-300 hrs)
+3. [Probability - MIT Tsitsiklis](https://www.edx.org/course/probability-the-science-of-uncertainty-and-data) + [Feller Vol. 1](https://www.wiley.com/en-us/An+Introduction+to+Probability+Theory+and+Its+Applications,+Volume+1,+3rd+Edition-p-9780471257080) (~150-250 hrs)
+
+### Phase 3: Intermediate (~400-600 hrs)
+Requires Phase 1-2 as prerequisites.
+
+1. [Analysis II - Terence Tao](https://link.springer.com/book/10.1007/978-981-19-7284-3) - Metric spaces, Lebesgue integral, Fourier (~200-300 hrs)
+2. [Complex Analysis - Stein & Shakarchi](https://press.princeton.edu/books/hardcover/9780691113852/complex-analysis) or [Ahlfors](https://www.amazon.com/Complex-Analysis-Lars-Ahlfors/dp/0070006571) - Use [Borcherds lectures](https://www.youtube.com/playlist?list=PL8yHsr3EFj537_iYA5QrvwhvMlpkJ1yGN) alongside (~200-300 hrs)
+3. [Elementary Number Theory - William Stein](https://wstein.org/ent/ent.pdf) + [Borcherds lectures](https://www.youtube.com/playlist?list=PL8yHsr3EFj53L8sMbzIhhXSAOpuZ1Fov8) (~100-150 hrs)
+
+### Phase 4: Advanced (pick based on interest, ~200-400 hrs each)
+Each is independent. Do any combination.
+
+- **Functional Analysis**: [Conway](https://link.springer.com/book/10.1007/978-1-4757-4383-8) or [Lax](https://www.wiley.com/en-us/Functional+Analysis-p-9780471556046) + [ICTP lectures](https://www.youtube.com/playlist?list=PLp0hSY2uBeP-MGleT2B1vWjXEa_APRc2z). Requires: Analysis, Linear Algebra, Topology
+- **Measure Theory & Stochastics**: [Billingsley](https://www.wiley.com/en-us/Probability+and+Measure,+Anniversary+Edition-p-9781118122372) → [Karlin & Taylor](https://shop.elsevier.com/books/a-first-course-in-stochastic-processes/karlin/978-0-08-057041-9) → [Oksendal](https://link.springer.com/book/10.1007/978-3-642-14394-6). Requires: Analysis, Probability
+- **PDEs**: [Evans](https://bookstore.ams.org/gsm-19-r) + [MIT 18.152](https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/). Requires: Analysis, Linear Algebra
+- **Differential Geometry**: [Needham](https://www.vdgf.space/) → [Lee Manifolds](https://link.springer.com/book/10.1007/978-1-4419-7940-7). Requires: Analysis, Topology, Linear Algebra
+- **Category Theory**: [Awodey](https://global.oup.com/academic/product/category-theory-9780199237180) → [Mac Lane](https://link.springer.com/book/10.1007/978-1-4757-4721-8) + [Borcherds lectures](https://www.youtube.com/playlist?list=PL8yHsr3EFj51F9XZ_Ka4bLnQoxTdMx0AL). Requires: Abstract Algebra
+- **Numerical Methods**: [Trefethen & Bau](https://epubs.siam.org/doi/10.1137/1.9781611977165) + [Boyd Convex Optimization](https://stanford.edu/~boyd/cvxbook/). Requires: Linear Algebra, Analysis
+- **Algebraic Number Theory**: [Milne](https://www.jmilne.org/math/CourseNotes/ANT.pdf) + [Borcherds](https://www.youtube.com/playlist?list=PL8yHsr3EFj52Qf7lc3HHvHRdIysxEcj1H). Requires: Abstract Algebra, Number Theory
+
+### Phase 5: Lean Mastery (ongoing, alongside any phase)
+- [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/) - Work through as you cover each math topic (~80-120 hrs)
+- [Formalising Mathematics 2024 - Buzzard](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024) - After Phase 2 (~60-100 hrs)
+- [The Hitchhiker's Guide to Logical Verification](https://lean-forward.github.io/hitchhikers-guide/2024/) - For the CS/logic side (~60-80 hrs)
+
+### Phase 6: Applications (optional, any time after Phase 2)
+- **Machine Learning**: [StatQuest](https://www.youtube.com/@statquest) (~20 hrs) → [ISL - Hastie & Tibshirani](https://www.youtube.com/watch?v=5N9V07EIfIg&list=PLOg0ngHtcqbPTlZzRHA2ocQZqB1D_qZ5V) (~60 hrs) → [fast.ai](https://course.fast.ai/) (~80 hrs)
+- **Dynamical Systems**: [SFI Introduction](https://www.complexityexplorer.org/courses/105-introduction-to-dynamical-systems-and-chaos) (~40 hrs) → [Brunton Data-Driven](https://www.youtube.com/playlist?list=PLMrJAkhIeNNR6DzT17-MM1GHLkuYVjhyt) (~40 hrs)
+- **Computational Math**: [MIT Computational Thinking (Julia)](https://computationalthinking.mit.edu/Spring21/) (~50 hrs)
+
+---
 
 ## General
 
