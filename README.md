@@ -139,9 +139,9 @@ A curated collection of resources for learning mathematics: linear algebra, anal
 - [MIT OCW 18.152: Introduction to Partial Differential Equations](https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/) - MIT course on classification and solution methods for PDEs
 - [MIT RES.6-012: Introduction to Probability](https://www.youtube.com/playlist?list=PLUl4u3cNGP60hI9ATjSFgLZpbNJ7myAg6) - MIT probability course covering Bayes' rule, random variables, limit theorems, and Markov chains
 - [Mathoma: Category Theory](https://www.youtube.com/channel/UCL_lVXCyzqBb2Xc8CrvPENg) - Video explanations of category theory concepts with concrete examples
-- [Neural Networks: Zero to Hero - Andrej Karpathy](https://karpathy.ai/zero-to-hero.html) - Builds backprop, micrograd, GPT from scratch in pure Python
-- [Freya Holmer: Math for Game Devs](https://www.youtube.com/@acegikmo) - Outstanding visual course on vectors, matrices, splines, quaternions
-- [The Nature of Code (2nd ed., 2024) - Daniel Shiffman](https://natureofcode.com/) - Physics simulations, autonomous agents, genetic algorithms through creative coding
+- [Neural Networks: Zero to Hero - Andrej Karpathy](https://karpathy.ai/zero-to-hero.html) - Video series building neural networks from scratch in pure Python, from backpropagation and micrograd through GPT-level language models
+- [Freya Holmer: Math for Game Devs](https://www.youtube.com/@acegikmo) - Outstanding visual video course covering vectors, matrices, splines, and quaternions with interactive game development examples
+- [The Nature of Code (2nd ed., 2024) - Daniel Shiffman](https://natureofcode.com/) - Free online book teaching physics simulations, autonomous agents, and genetic algorithms through creative coding in p5.js
 - [Mathematics in Lean (Lean 4 / Mathlib)](https://leanprover-community.github.io/mathematics_in_lean/) - Interactive textbook for formalizing mathematics in Lean 4 using Mathlib (210,000+ theorems)
-- [Math for Programming - Ronald T. Kneusel (No Starch Press, 2025)](https://nostarch.com/math-programming) - Vectors/matrices, calculus for optimization, graph theory, probability with algorithm applications
+- [Math for Programming - Ronald T. Kneusel (No Starch Press, 2025)](https://nostarch.com/math-programming) - Practical book covering vectors, matrices, calculus for optimization, graph theory, and probability with direct applications to programming algorithms
 - [Formalising Mathematics 2024 - Kevin Buzzard (Imperial College, Lean 4)](https://github.com/ImperialCollegeLondon/formalising-mathematics-2024) - Full course on formalizing math in Lean 4 with Mathlib exercises and projects
