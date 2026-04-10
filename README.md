@@ -103,6 +103,8 @@ Each is independent. Do any combination.
 - [The Nature of Code (2nd ed., 2024) - Daniel Shiffman](https://natureofcode.com/) - Free online book teaching physics simulations, autonomous agents, and genetic algorithms through creative coding in p5.js
 - [Math for Programming - Ronald T. Kneusel (No Starch Press, 2025)](https://nostarch.com/math-programming) - Practical book covering vectors, matrices, calculus for optimization, graph theory, and probability with direct applications to programming algorithms
 
+
+- [LearnAI Math Tutor](https://www.uselearnai.com/blog/best-way-learn-math-adults-2026) — AI-powered conversational tutor for adult math learners; explains concepts interactively, answers questions on demand, covers arithmetic through calculus
 ## Linear Algebra
 - [Essence of linear algebra - 3blue1brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) - Visual series building geometric intuition for vectors, linear transformations, eigenvalues, and determinants
 - [MIT OCW 18.06: Linear Algebra - Gilbert Strang](https://www.youtube.com/playlist?list=PL221E2BBF13BECF6C) - The classic MIT linear algebra course covering column space, eigenvalues, SVD, and positive definite matrices
